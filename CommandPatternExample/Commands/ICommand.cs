@@ -6,13 +6,8 @@ using System.Threading.Tasks;
 
 namespace CommandPatternExample
 {
-    class Program
+    public interface ICommand
     {
-        static void Main(string[] args)
-        {
-            Program2.Run(args);   
-        }
-
-        
+        void Execute();
     }
 }

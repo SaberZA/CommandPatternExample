@@ -42,8 +42,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommandExecutor.cs" />
+    <Compile Include="Commands\ICommand.cs" />
+    <Compile Include="Commands\ICommandFactory.cs" />
+    <Compile Include="Commands\UpdateQuantityCommand.cs" />
+    <Compile Include="Commands\CreateOrderCommand.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Program1.cs" />
+    <Compile Include="Program2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Commands\ShipOrderCommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
