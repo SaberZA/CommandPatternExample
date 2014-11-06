@@ -46,6 +46,7 @@
     <Compile Include="Commands\ICommandFactory.cs" />
     <Compile Include="Commands\UpdateQuantityCommand.cs" />
     <Compile Include="Commands\CreateOrderCommand.cs" />
+    <Compile Include="Commands\NotFoundCommand.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Program1.cs" />
     <Compile Include="Program2.cs" />
